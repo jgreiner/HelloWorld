@@ -4,5 +4,6 @@
       "namespace":"HelloWorld",
       "author":"Jochen Greiner",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
+      "version"           : "1.2.10"
 }
