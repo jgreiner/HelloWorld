@@ -5,5 +5,13 @@
       "author":"Jochen Greiner",
       "type":"template",
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
-      "version"           : "1.2.10"
+      "version"           : "1.2.10",
+      "dataProviders"         :
+      [
+            {
+                  "key"           :"HelloWorld\\Containers\\ThemeContainer",
+                  "name"          :"Dark background",
+                  "description"   :"Change the background colour of the Ceres template"
+            }
+      ]
 }
