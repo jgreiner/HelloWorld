@@ -5,7 +5,7 @@
       "author":"Jochen Greiner",
       "type":"theme",
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
-      "version"           : "1.2.11",
+      "version"           : "1.2.12",
       "dataProviders"         :
       [
             {
