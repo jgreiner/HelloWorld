@@ -30,6 +30,7 @@ class HelloWorldServiceProvider extends ServiceProvider
     {
         $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
             $partial->set('footer', 'HelloWorld::content.ThemeFooter');
+            $partial->set('navigation', 'HelloWorld::content.Navigation');
         }, 0);
         return false;
     }
