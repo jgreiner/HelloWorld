@@ -8,6 +8,9 @@ use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
 
 /**
+ * https://developers.plentymarkets.com/dev-doc/theme-plugins
+ * https://developers.plentymarkets.com/marketplace/plugin-requirements
+ *
  * Class HelloWorldServiceProvider
  * @package HelloWorld\Providers
  */
