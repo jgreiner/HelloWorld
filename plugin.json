@@ -3,9 +3,9 @@
       "description":"My first plugin",
       "namespace":"HelloWorld",
       "author":"Jochen Greiner",
-      "type":"theme",
+      "type":"template",
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
-      "version"           : "1.2.10",
+      "version"           : "1.2.11",
       "dataProviders"         :
       [
             {
