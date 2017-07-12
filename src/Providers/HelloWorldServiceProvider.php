@@ -36,12 +36,6 @@ class HelloWorldServiceProvider extends ServiceProvider
 
         }, 0);
 
-
-        $eventDispatcher->listen('IO.init.templates', function (Partial $partial) {
-
-            $partial->set('navigation', 'HelloWorld::content.Navigation');
-        }, 0);
-
         return false;
     }
 }
